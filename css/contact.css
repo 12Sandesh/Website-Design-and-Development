@@ -1,0 +1,488 @@
+                                /* Header section */
+
+/* header image */
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/Anime/background/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo */
+nav img{
+    width: 144px;
+    height: 110px;
+    padding-top: 3%;
+    padding-left: 5.7%;
+}
+
+/* nav bar div */
+.nav_links{
+    padding-top: 5.5%;
+    flex: 1;
+    text-align: right;
+}
+
+/* nav bar text placement */
+.nav_links ul li{
+    font-family: "Joti One", sans-serif;
+    display: inline-block;
+    padding: 8px 16.5px;
+    position: relative;
+    color: #fff;
+    margin-right: 19px;
+}
+
+/* nav bar links text style */
+.nav_links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 150;
+}
+
+                        /* Footer section*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h2{
+    font-family: "Joti One", sans-serif;
+    font-size: 40px;
+}
+
+.footer p {
+    font-family: "Just Another Hand";
+    font-size: 30px;
+    margin: 0 110px;
+    text-align: left;
+}
+
+.icons{
+    margin-top: 2%;
+    margin-bottom: 13px;
+}
+
+.icons img{
+    margin: 0px 20px;
+}
+
+#creator img{
+    margin-top: 10px;
+}
+
+                            /* Body section */
+
+*{
+    margin: 0%;
+    color: white;
+}
+                            
+ body{
+    background-color: black; 
+}
+
+main{
+    background-image: url(/Anime/background/cbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: 999;
+
+}
+
+.contact-container {
+    background-color: #742c7b73;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    max-width: 690px;
+    width: 100%;
+    max-height: 100%;
+    align-items: center;
+    margin: 10% o;
+}
+
+.text{
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Just Another Hand";
+    font-weight: lighter;
+    font-size: 80px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+label {
+    font-weight: bold;
+}
+
+.font{
+    font-family: "Joti One", sans-serif;
+    font-size: 25px;
+}
+
+.font1{
+    font-family: "Joti One", sans-serif;
+    font-size: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    font-family: "Joti One", sans-serif;
+    background-color: #960ed1af;
+    color: #fff;
+    padding: 10px 38px;
+    border: none;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 425px){
+    /* Header section */
+
+    /* header image */
+    .header{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/Anime/background/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;          
+    min-height: 10px;
+    z-index: 1;
+    }
+
+    /* nav bar */
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    /* logo */
+    nav img{
+    max-width: 63px;
+    min-height: 47px;
+    /* padding-top: 7.5%;
+    padding-left: 6.8%; */
+    }
+
+    /* nav bar div */
+    .nav_links{
+    padding-top: 7.65%;
+    flex: 1;
+    text-align: right;
+    }
+
+    /* nav bar text placement */
+    .nav_links ul li{
+    font-family: "Joti One", sans-serif;
+    display: inline-block;
+    padding: 8px 16.5px;
+    position: relative;
+    color: #fff;
+    margin-right: 19px;
+    }
+
+    /* nav bar links text style */
+    .nav_links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 150;
+    }
+
+    /* middle div */
+    .text-box{
+    font-family: "Just Another Hand";
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 42.8%;
+    left: 30.5%;
+
+    }
+
+    /* website name */
+    #web_name{
+    font-size: 25px;
+    font-weight: lighter;
+    }
+
+    /* quote & writer*/
+    .saying{
+    font-size: 15px;
+    }
+
+    /* visit us */
+    #visit{
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    font-size: 11px;
+    position: relative;
+    margin-top: 6.6%;
+    margin-right: 0;
+    }
+
+    /* visit us effect */
+    #visit:hover{
+    border: 1px solid #fff;
+    background: #f44336;
+    }
+    /* 
+    .hamburger {
+    position: relative;
+    max-width: 30px;
+    min-height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.3s;
+    }
+
+    .hamburger::before,
+    .hamburger::after{
+    content: "";
+    position: absolute;
+    min-height: 4px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+    }
+
+    .hamburger::before{
+    top: -10px;
+    max-width: 30px;
+    }
+
+    .hamburger::after{
+    top: 10px;
+    max-width: 30px;
+    }
+
+    .toggle-menu{
+    position: absolute;
+    max-width: 30px;
+    min-height: 100%;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+    }
+
+    .hamburger,
+    .toggle-menu{
+    display:none;
+    }
+
+    .nav_links input:checked ~ .hamburger{
+    background: transparent;
+    }
+
+    .nav_links input:checked ~ .hamburger::before{
+    top: 0;
+    transform: rotate(-45deg);
+    max-width: 30px;
+    }
+
+    .nav_links input:checked ~ .hamburger::after{
+    top: 0;
+    transform: rotate(45deg);
+    max-width: 30px;
+    } */
+
+
+    /* Footer section*/
+    .footer{
+    max-width: 80%;
+    text-align: center;
+    padding: 30px 0;
+    margin-inline: auto;
+    }
+
+    .footer h2{
+    margin-top: 5%;
+    font-family: "Joti One", sans-serif;
+    font-size: 20px;
+    }
+
+    .footer p {    
+    font-family: "Just Another Hand";
+    font-size: 15px;
+    margin: 0 0px;
+    text-align: left;
+    }
+
+    .icons{
+    margin-top: 2%;
+    margin-bottom: 13px;
+    }
+
+    .icons img{
+    margin: 0px 0px;
+    width: 53px;
+    height: 28px;
+    }
+
+    #creator{
+    padding-left: 4%;
+    }
+
+    #creator img{
+    margin-top: 3px;
+    }
+
+    #creator img #c{
+    width: 10px;
+    height: 10px;
+    }
+
+    #creator img #g{
+    width: 137px;
+    height: 11px;
+    }
+
+
+                            /* Body section */
+
+    *{
+        margin: 0%;
+        color: white;
+    }
+                                
+        body{
+        background-color: black; 
+    }
+    
+    main{
+        background-image: url(/Anime/background/cbg.webp);
+        background-repeat: no-repeat;
+        /* background-size: cover;  */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 517px;
+        z-index: 999;
+    
+    }
+    
+    .contact-container {
+        background-color: #742c7b73;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+        padding-left: 5px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        text-align: center;
+        max-width: 282px;
+        min-height: 210px;
+        align-items: center;
+    }
+    
+    .text{
+        color: black;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #fff;
+        font-family: "Just Another Hand";
+        font-weight: lighter;
+        font-size: 40px;
+    }
+    
+    .contact-form {
+        text-align: left;
+    }
+    
+    label, input, textarea {
+        display: block;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    .font{
+        font-family: "Joti One", sans-serif;
+        font-size: 12px;
+    }
+    
+    .font1{
+        font-family: "Joti One", sans-serif;
+        font-size: 8px;
+    }
+
+    #name-input::placeholder{
+        font-family: "Joti One", sans-serif;
+        font-size: 8px;
+    }
+
+    #email-input::placeholder{
+        font-family: "Joti One", sans-serif;
+        font-size: 8px;
+    }
+
+    #message-input::placeholder{
+        font-family: "Joti One", sans-serif;
+        font-size: 8px;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: 5px;
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    
+    button {
+        font-family: "Joti One", sans-serif;
+        background-color: #960ed1af;
+        color: #fff;
+        padding: 5px 19px;
+        border: none;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+}
